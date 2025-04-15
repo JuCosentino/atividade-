@@ -197,3 +197,7 @@ body {
     color:#0a243e;
     margin-bottom: 1.5rem;
 }
+
+.conteudo {
+    display: flex;
+}
