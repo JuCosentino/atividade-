@@ -101,6 +101,17 @@ body {
     text-align: left;
 }
 
+.botao{
+    display: inline-block;
+    background: var(--cor-primaria);
+    padding: 0.8rem 2rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+
 .sobre {
     padding: 4rem 0;
 }
@@ -148,15 +159,8 @@ body {
     margin-bottom: 1rem;
 }
 
-.caixa{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    max-width: 1000px;
-    margin: auto;
-}
 
-.container2 h2{
+.container2 .h2{
     color: #0a243e;
     font-size: 2.5rem;
     text-align: center;
@@ -171,27 +175,29 @@ body {
 }
 
 .caixa{
-    width: 300px;
-    padding: 20px;
+    flex: 1;
     background-color: #ffffff;
-    border-radius: 15px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.151);
+ 
 }
 
 .container2 h3{
    color: #0a243e; 
-   font-size: 2rem;
+   font-size: 2.5rem;
   
 }
 .caixa h2{
     color:#0a243e;
-    font-size: 2.5rem;
+    font-size: 30px;
     display: flex;
     text-align: center;
-    margin-bottom: 1rem;
     }
 
+    .caixa p{
+        padding: 0 20px;
+    }
 .Web{
     font-size: 1.8rem;
     color:#0a243e;
@@ -200,4 +206,16 @@ body {
 
 .conteudo {
     display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+    /* flex-wrap: wrap; */
+    /* width: 150px; */
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+
+
+.container2 {
+    margin-bottom: 2rem;
 }
